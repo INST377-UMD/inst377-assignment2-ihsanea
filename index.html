@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home | Class Activities</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="stocks.html">Stocks</a></li>
+      <li><a href="dogs.html">Dogs</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Hey, welcome to the Class Activities page</h1>
+    <p>Use the buttons below or try voice commands to move around the site.</p>
+
+    <div>
+      <button id="stocksBtn">Go to Stocks</button>
+      <button id="dogsBtn">Go to Dogs</button>
+    </div>
+
+    <div id="quoteContainer" style="margin-top: 20px;">
+      Loading quote...
+    </div>
+  </main>
+
+  <div id="audio-controls" style="margin-top: 40px;">
+    <p><strong>Audio Commands:</strong></p>
+    <ul>
+      <li>Say “Hello” → shows alert</li>
+      <li>Say “Change the color to red” → changes background</li>
+      <li>Say “Navigate to dogs” → moves you to the dogs page</li>
+    </ul>
+    <button onclick="annyang.start()">Turn On Audio</button>
+    <button onclick="annyang.abort()">Turn Off Audio</button>
+  </div>
+
+  <script src="

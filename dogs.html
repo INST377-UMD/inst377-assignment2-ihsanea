@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dogs | Class Activities</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/simple-slider@1.0.0/simple-slider.css">
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="stocks.html">Stocks</a></li>
+      <li><a href="dogs.html">Dogs</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Dog Gallery 🐕</h1>
+
+    <div id="carousel" class="slider"></div>
+
+    <h2>Dog Breeds</h2>
+    <div id="breedButtons"></div>
+
+    <div id="breedInfo" style="display:none; margin-top: 20px;"></div>
+  </main>
+
+  <div id="audio-controls">
+    <p>Voice Command: "Load dog breed husky"</p>
+    <button onclick="annyang.start()">Turn On Audio</button>
+    <button onclick="annyang.abort()">Turn Off Audio</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+  <script src="https://unpkg.com/simple-slider@1.0.0/simple-slider.js"></script>
+  <script src="main.js"></script>
+  <script src="dogs.js"></script>
+</body>
+</html>

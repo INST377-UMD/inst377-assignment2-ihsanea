@@ -1,0 +1,10 @@
+inst377-assignment2-ihsanea/
+│
+├── index.html          ← Home page
+├── stocks.html         ← Stocks page
+├── dogs.html           ← Dogs page
+│
+├── style.css           ← Shared styles for all pages
+├── main.js             ← Shared JS for nav & audio
+├── stocks.js           ← JS only for stocks page
+├── dogs.js             ← JS only for dogs page
